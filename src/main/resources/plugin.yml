@@ -1,0 +1,10 @@
+name: FeedAndHeal
+version: ${project.version}
+main: org.apache.maven.plugins.mavencompilerplugin.Main
+load: STARTUP
+authors: [ Adriks ]
+description: Plugin for commands Feed and Heal
+
+commands:
+  heal:
+  feed:
